@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1767790296697,
+      "tag": "0000_medical_nebula",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1767790430246,
+      "tag": "0001_neat_roulette",
+      "breakpoints": true
+    }
+  ]
+}
