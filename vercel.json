@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "package.json",
@@ -9,5 +8,11 @@
       }
     }
   ],
-  "outputDirectory": "dist/public"
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
